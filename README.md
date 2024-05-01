@@ -8,6 +8,8 @@ WeRateDogs dataset Wrangling and Analysis
 - [Table of contents](#table-of-contents)
 
 - [About the project](#about-the-project)
+  
+- [File Architecture](#file-architecture)
 
 - [Pre-requisites](#pre-requisites)
   
@@ -38,6 +40,11 @@ Thus in this project, I worked on the following three datasets:
 + p2_dog indicates whether prediction number 2 is a purebred dog or not → TRUE
 + etc.
 
+## File architecture
+The files are presented as follows:
+- ***wrangle_act.ipynb***: contains the data collection, cleansing and storage (ETL) sections, followed by data analysis and visualization.
+- ***wrangle_report.pdf***: briefly describes data processing. Is considered an internal document.
+- ***act_report.pdf***: communicates all observations and displays the visualization(s) produced from the data.  Is considered an external document.
 
 ## Pre-requisites
 
